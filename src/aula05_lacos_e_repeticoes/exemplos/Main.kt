@@ -1,6 +1,6 @@
 package aula05_lacos_e_repeticoes.exemplos
 
-fun main() {
+private fun main() {
     /* Exemplo 01 */
     println("Exemplo 01 - forma mais reduzida")
     listOf(0, 1, 2).forEach{println(it)}

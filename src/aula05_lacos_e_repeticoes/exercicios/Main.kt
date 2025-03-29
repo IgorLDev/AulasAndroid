@@ -3,7 +3,7 @@ package aula05_lacos_e_repeticoes.exercicios
 import aula01_tipos_de_dados.exercicios.userEscolha
 import kotlin.random.Random
 
-fun main() {
+private fun main() {
     println("Exercício 01" +
             "\nElabore um código que imprima todos os números pares de 0 a 100")
 

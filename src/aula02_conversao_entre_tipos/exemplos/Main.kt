@@ -4,7 +4,7 @@ import java.text.NumberFormat
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 
-fun main() {
+private fun main() {
 
     println("Exemplo 1")
     val formataNumeros = NumberFormat.getNumberInstance().also{

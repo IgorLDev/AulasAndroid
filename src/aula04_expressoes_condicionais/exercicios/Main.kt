@@ -1,6 +1,6 @@
 package aula04_expressoes_condicionais.exercicios
 
-fun main() {
+private fun main() {
     println("Exercício 01")
     /*1-Elabore um código que verifique se o número é positivo, negativo ou zero */
     var numero = -8

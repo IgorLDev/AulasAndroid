@@ -16,7 +16,7 @@ var listaNomes = arrayListOf(nomeUsuario)
 var listaSalario = arrayListOf(salarioUsuario)
 var listaFuncionarios = arrayListOf(listaIDs[idUsuario], listaNomes[idUsuario], listaSalario[idUsuario])
 
-fun main() {
+private fun main() {
     println("1. Cadastro de funcionários na empresa")
 
     menu()
@@ -95,6 +95,10 @@ fun deletarUsuario(){
     println("4. Deletar Funcionários")
 
     return menu()
+
+}
+
+fun teste() {
 
 }
 
