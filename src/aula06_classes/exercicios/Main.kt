@@ -1,4 +1,4 @@
-package aula06_classes.exercicios.ex01_codigo_veterinario
+package aula06_classes.exercicios
 
 import kotlin.math.roundToInt
 
