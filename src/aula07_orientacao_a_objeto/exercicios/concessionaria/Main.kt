@@ -1,7 +1,5 @@
 package aula07_orientacao_a_objeto.exercicios.concessionaria
 
-import com.sun.tools.javac.Main
-
 class Carro(val marca: String, val modelo: String, val cor: String, val ano : Int, val quilometragem: Int, val preco : Double) {
     fun exibirInfos() {
         println(
@@ -35,7 +33,6 @@ class Vendedor(val nome: String, val idFuncionario: Int, val CPF: String, val em
         println("Venda registrada por $nome")
         cliente.comprar(carro, quantidade)
     }
-
 }
 
 class Cliente(val nome: String, val idCliente: Int, val CPF: String, val email: String, val telefone: String, val dinheiroConta: Double){
